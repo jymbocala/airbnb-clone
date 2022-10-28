@@ -5,6 +5,22 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+#root {
+  background-color: #c8c8c8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 550px;
+  height: 800px;
+  margin-top: 50px;
+  border-radius: 9px;
+  background-color: #fff;
 }
 
 nav {
