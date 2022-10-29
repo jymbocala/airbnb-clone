@@ -9,7 +9,7 @@ body {
 }
 
 #root {
-  background-color: #c8c8c8;
+  background-color: #e3e3e3;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -81,4 +81,12 @@ section {
 
 .card--star {
   height: 14px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    margin: 0;
+    border-radius: 0px;
+  }
+  
 }
