@@ -5,15 +5,11 @@ import Card from "./components/Card"
 import experiencesData from "./data"
 
 function App() {
-  const dataElements = experiencesData.map(data => {
+  const dataElements = experiencesData.map(item => {
     return (
       <Card 
-        img={data.coverImg}
-        rating={data.stats.rating}
-        reviewCount={data.stats.reviewCount}
-        location={data.location}
-        title={data.title}
-        price={data.price}
+        key={item.id}
+        item={item}
       />
     )
   })
